@@ -228,8 +228,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: 1
-  speed: 6
-  power: 5
+  speed: 5
+  power: 10
 --- !u!54 &298936283
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -588,6 +588,11 @@ Prefab:
       propertyPath: m_Constraints
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23397991999822742, guid: ae96980b650a72f45a29c51a6f893bb6,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ae96980b650a72f45a29c51a6f893bb6, type: 2}
   m_IsPrefabParent: 0
@@ -794,8 +799,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 12.8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -817,7 +822,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1704619861}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 21.48, z: 0}
+  m_LocalPosition: {x: 0, y: 25.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1065,8 +1070,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: 0
-  speed: 6
-  power: 5
+  speed: 5
+  power: 10
 --- !u!54 &2009391563
 Rigidbody:
   m_ObjectHideFlags: 0
